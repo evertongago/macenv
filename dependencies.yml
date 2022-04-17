@@ -1,0 +1,29 @@
+name: exploration
+ 
+dependencies:
+   - python=3.9
+   - pip>=19.0
+   - jupyter
+   - apple::tensorflow-deps==2.5.0
+   - scikit-learn
+   - scipy
+   - matplotlib
+   - pillow
+   - tqdm
+   - requests
+   - h5py
+   - pyyaml
+   - pandas
+   - optuna
+   - pip:
+      - statsmodels
+      - mlxtend
+      - joblib
+      - imbalanced-learn
+      - wordcloud
+      - scrapy
+      - gurobipy
+      - tensorflow-macos==2.5.0
+      - tensorflow-metal==0.1.2
+      - gym
+      - mlrose
