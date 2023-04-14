@@ -1,0 +1,17 @@
+name: gpu-basics
+ 
+dependencies:
+   - python=3.9
+   - jupyter
+   - apple::tensorflow-deps==2.5.0
+   - requests
+   - pyyaml
+   - pandas
+   - nltk
+   - pip:
+      - joblib
+      - wordcloud
+      - tensorflow-macos
+      - tensorflow-metal
+      - scikit-learn
+
