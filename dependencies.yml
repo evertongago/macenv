@@ -1,7 +1,11 @@
 name: gpu-basics
+
+channels:
+   - conda-forge
  
 dependencies:
    - python=3.9
+   - gym
    - jupyter
    - apple::tensorflow-deps==2.5.0
    - requests
@@ -10,7 +14,6 @@ dependencies:
    - nltk
    - pip:
       - joblib
-      - wordcloud
       - tensorflow-macos
       - tensorflow-metal
       - scikit-learn
