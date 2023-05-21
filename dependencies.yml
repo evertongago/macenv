@@ -17,4 +17,4 @@ dependencies:
       - tensorflow-macos
       - tensorflow-metal
       - scikit-learn
-
+      - pyglet
