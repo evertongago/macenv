@@ -16,5 +16,6 @@ dependencies:
       - joblib
       - tensorflow-macos
       - tensorflow-metal
+      - tensorflow-probability
       - scikit-learn
       - pyglet
