@@ -1,2 +1,2 @@
-conda env create -f dependencies.yml
-conda activate gpu-basics
+$ conda env create -f dependencies.yml<br>
+$ conda activate gpu-basics
