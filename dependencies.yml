@@ -17,4 +17,5 @@ dependencies:
       - tensorflow-macos
       - tensorflow-metal
       - tensorflow-probability
+      - transformers
       - scikit-learn
