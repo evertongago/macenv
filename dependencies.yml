@@ -12,6 +12,7 @@ dependencies:
    - pyyaml
    - pandas
    - nltk
+   - lightfm
    - pip:
       - joblib
       - tensorflow-macos
