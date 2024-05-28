@@ -13,6 +13,7 @@ dependencies:
    - pandas
    - nltk
    - lightfm
+   - lightgbm
    - pip:
       - joblib
       - tensorflow-macos
