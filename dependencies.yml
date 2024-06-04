@@ -26,3 +26,4 @@ dependencies:
       - langchain
       - chromadb
       - tiktoken
+      - mlxtend
