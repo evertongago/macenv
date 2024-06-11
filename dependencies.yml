@@ -27,3 +27,4 @@ dependencies:
       - chromadb
       - tiktoken
       - mlxtend
+      - shap
