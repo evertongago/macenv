@@ -19,6 +19,7 @@ dependencies:
       - tensorflow-macos
       - tensorflow-metal
       - tensorflow-probability
+      - tensorflow-gnn
       - transformers
       - scikit-learn
       - gensim
