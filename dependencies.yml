@@ -22,4 +22,5 @@ dependencies:
       - ray[rllib]
       - networkx
       - mlxtend
+      - pyspark
       - shap
