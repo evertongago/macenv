@@ -1,26 +1,21 @@
-name: gpu-basics
+name: macenv
 
 channels:
-   - conda-forge
- 
+  - conda-forge
+
 dependencies:
-   - python=3.9
-   - gym
-   - jupyter
-   - apple::tensorflow-deps==2.5.0
-   - requests
-   - pyyaml
-   - pandas
-   - lightfm
-   - lightgbm
-   - pip:
-      - joblib
-      - tensorflow-macos
+  - python=3.9
+  - gym
+  - jupyter
+  - requests
+  - pyyaml
+  - pandas
+  - flask
+  - pip:
+      - tensorflow-macos==2.13.0
       - tensorflow-metal
-      - tensorflow-probability
+      - tensorflow-recommenders==0.7.3
+      - "typing-extensions<4.6.0,>=3.6.6"
+      - joblib
       - scikit-learn
-      - ray[rllib]
-      - networkx
-      - mlxtend
       - pyspark
-      - shap
